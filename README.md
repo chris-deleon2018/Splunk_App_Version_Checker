@@ -1,11 +1,24 @@
 # Installed Splunk App Version Checker
 Uses Splunk's REST API to pull down all apps and versions then checks Splunkbase for compatibility.
 
+## Dependancies
+```
+splunkbase_web_scraper:
+pip3 install beautifulsoup4
+pip3 install requests
+pip3 install lxml
+
+splunk_rest_query:
+pip3 install beautifulsoup4
+pip3 install future
+pip3 install httplib2
+pip3 install urllib3
+```
+
 ## How to run
 ```
 python3 splunkbase_web_scraper.py
 ```
-
 ## Example Results
 ```
 Enter Server Name: SERVER
