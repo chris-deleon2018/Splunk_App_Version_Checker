@@ -7,6 +7,7 @@ python3 splunkbase_web_scraper.py
 ```
 
 ## Example Results
+```
 Enter Server Name: SERVER
 Enter Version to Check (eg: 8.0): 8.0
 Enter Splunk Credentials
@@ -24,6 +25,6 @@ Technology Add-on for pfSense, 2.2.1, https://apps.splunk.com/apps/id/TA-pfsense
 [-] Splunk Common Information Model is not 8.0 compatible.
 [+] Splunk Add-on for Unix and Linux is 8.0 compatible.
 [+] Technology Add-on for pfSense is 8.0 compatible.
-
+```
  ## Results Explained
  The script reached out to the Splunk search head and ran a query that returned all apps installed. There were only three apps that were installed from Splunkbase. Those three provide links to Splunkbase where the script then checks if the version the apps are on are compatible with the version that was entered.
