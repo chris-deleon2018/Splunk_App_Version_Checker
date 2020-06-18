@@ -36,7 +36,7 @@ def checkAppCompatibility(resultDict):
 
 serverName = input('Enter Server Name: ')
 searchQuery = '| rest /services/apps/local | search disabled=0 core=0 | dedup label | table label, version, details'
-version_compatibility = '8.0'
+version_compatibility = input('Enter Version to Check (eg: 8.0): ')
 
 # Create a new search and run through Splunk REST API
 #newQuery = SplunkQuery(userName,password,serverName,searchQuery)
