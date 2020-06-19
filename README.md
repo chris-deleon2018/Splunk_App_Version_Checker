@@ -1,5 +1,5 @@
-# Installed Splunk App Version Checker
-Uses Splunk's REST API to pull down all apps and versions then checks Splunkbase for compatibility.
+# Splunk App Version Compatibility Upgrade Checker
+Uses Splunk's REST API to pull down all apps and versions then checks Splunkbase for compatibility before upgrading Splunk.
 
 ## Dependancies
 ```
